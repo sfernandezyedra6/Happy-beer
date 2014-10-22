@@ -31,10 +31,10 @@ public class ScrollInifiteScript : MonoBehaviour {
 				Transform child = transform.GetChild(i);
 				
 				// Add only the visible children
-				if (child.renderer != null)
-				{
+				//if (child.renderer != null)
+				//{
 					backgroundPart.Add(child);
-				}
+				//}
 			}
 			
 			// Sort by position.
