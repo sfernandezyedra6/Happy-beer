@@ -25,11 +25,11 @@ public class ScrollInifiteScript : MonoBehaviour {
 		{
 			// Get all the children of the layer with a renderer
 			backgroundPart = new List<Transform>();
-			
+
 			for (int i = 0; i < transform.childCount; i++)
 			{
 				Transform child = transform.GetChild(i);
-				
+
 				// Add only the visible children
 				//if (child.renderer != null)
 				//{

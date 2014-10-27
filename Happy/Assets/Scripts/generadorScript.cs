@@ -10,6 +10,7 @@ public class generadorScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		posicion = transform.position;
+
 	}
 	
 	// Update is called once per frame
@@ -27,7 +28,7 @@ public class generadorScript : MonoBehaviour {
 			Destroy (nuevacolumna,tiempoespera+3);
 
 			timer = Time.time+tiempoespera;
-
+				
 		}
 	}
 }

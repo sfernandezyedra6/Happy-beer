@@ -18,7 +18,8 @@ public class menuScript : MonoBehaviour {
 
 
 	public void restart(){
-
+			GameControl.dead = false;
+			GameControl.score = 0;
 			animacion_panel.SetBool ("muestraMenu", false);
 			Application.LoadLevel(Application.loadedLevel);
 		}

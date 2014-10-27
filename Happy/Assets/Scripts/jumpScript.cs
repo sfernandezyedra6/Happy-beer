@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class jumpScript : MonoBehaviour {
@@ -44,6 +44,7 @@ public class jumpScript : MonoBehaviour {
 			//AudioSource.PlayClipAtPoint(deadSound, transform.position);
 			//anim.SetBool("dead",true);
 			rigidbody2D.gravityScale = 4;
+			transform.localScale = new Vector3 (transform.localScale.x, transform.localScale.y*-1, transform.localScale.z);
 		}
 	}
 }
