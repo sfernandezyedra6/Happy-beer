@@ -20,4 +20,5 @@ public class scoreUp : MonoBehaviour {
 			texto.text  = "Level " + GameControl.score.ToString ();
 		textoFinal.text = texto.text;
 	}
+
 }
